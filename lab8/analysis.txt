@@ -1,0 +1,15 @@
+Bubble Sort:
+Theoretical Asymptotic Complexity is O(n2)
+Bubble Sort’s execution time rises steeply with increasing input size. It grows faster than its theoretical complexity in practice, especially with larger input sizes and thus is not in accordance with its expected performance for larger input sizes.
+
+Insertion Sort:
+Theoretical Asymptotic Complexity is O(n2)
+Insertion Sort shows somewhat mix of behaviour. For smaller input sizes, it grows slowly. For medium size, it grows rapidly, much faster than expected and for large input sizes, it indeed aligns closely with its theoretical time complexity.
+
+Merge Sort:
+Theoretical Asymptotic Complexity is O(n logn)
+Merge Sort’s performance aligns closely with its time complexity. The logarithmic factor prevents running time from increasing drastically. For large input sizes too, it is consistent with its time complexity.
+
+Heap Sort:
+Theoretical Asymptotic Complexity is O(n logn)
+Heap Sort’s performance also aligns closely with its time complexity. Heap Sort and Merge Sort overlap in the graph. Similar to merge sort, the logarithmic factor does not let running time increase drastically. For large input size too, it is in accordance with its time complexity.
